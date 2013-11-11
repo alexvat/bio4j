@@ -1,6 +1,5 @@
 <scheduled_executions>	
 <!--
--->
 	<execution>
 		<class_full_name>com.era7.bioinfo.bio4j.neo4j.programs.InitBio4jDB</class_full_name>
 		<arguments>
@@ -25,6 +24,7 @@
 			<argument>batchInserter.properties</argument>
 		</arguments>
 	</execution>		
+	
 	<execution>
 		<class_full_name>com.era7.bioinfo.bio4j.neo4j.programs.ImportRefSeq</class_full_name>
 		<arguments>
@@ -33,6 +33,7 @@
 			<argument>batchInserter.properties</argument>
 		</arguments>
 	</execution>
+	
 			
 	<execution>
 		<class_full_name>com.era7.bioinfo.bio4j.neo4j.programs.ImportUniprot</class_full_name>
@@ -43,6 +44,7 @@
 			<argument>uniprotData.xml</argument>
 		</arguments>
 	</execution>	
+	
 	<execution>
 		<class_full_name>com.era7.bioinfo.bio4j.neo4j.programs.ImportUniprot</class_full_name>
 		<arguments>
@@ -53,8 +55,10 @@
 		</arguments>
 	</execution>	
 	
-	
-	
+	-->
+
+
+	<!--	
 	<execution>
 		<class_full_name>com.era7.bioinfo.bio4j.neo4j.programs.ImportProteinInteractions</class_full_name>
 		<arguments>
@@ -109,8 +113,8 @@
 			<argument>batchInserter.properties</argument>			
 		</arguments>
 	</execution>	
-	<!--
 	
+	-->	
 	
 	<execution>
 		<class_full_name>com.era7.bioinfo.bio4j.tools.GetNodeAndRelsStatistics</class_full_name>
@@ -119,7 +123,7 @@
 			<argument>neo4j.properties</argument>			
 		</arguments>
 	</execution>
-	-->	
+	
 	<!--
 	-->
 </scheduled_executions>
